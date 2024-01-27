@@ -1,5 +1,7 @@
 const mongoose = require("mongoose");
 
+const DATABASE="mongodb+srv://kmsolyman:solyman@cluster0.7wpalig.mongodb.net/token?retryWrites=true&w=majority"
+
 const DB = process.env.DATABASE
 
 mongoose.connect(DB,{
